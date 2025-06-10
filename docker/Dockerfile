@@ -1,4 +1,4 @@
-FROM golang:1.14
+FROM golang:1.24.4
 ENV GOBIN /go/bin
 RUN go get github.com/stellar/stellar-etl
 WORKDIR /etl
